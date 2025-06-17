@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Search Engine</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+ <div class="mobile-menu-button" onclick="toggleMobileMenu()">&#9776;</div>
+  <div class="overlay" id="overlay" onclick="toggleMobileMenu()"></div>
+  <div class="logo">  <h2>📸Image-Search-Engine</h2></div>
+  <nav class="mobile-header1" id="mobileHeader1">
+    
+    <a href="#home">HOME</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <!-- <a href="#">ABC</a> -->
+  </nav>
+
+  <header class="header1">
+    <h2>📸Image-Search-Engine</h2>
+    <a href="#home">HOME</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <!-- <a href="#">ABC</a> -->
+  </header>
+
+ 
+
+    <section class="box" id="home">
+      <span style="--i: 1;"><a href="./photos/z1.jpg"><img src="./photos/z1.jpg" alt="Image 1"></a></span>
+      <span style="--i: 2;"><a href="./photos/z2.jpg"><img src="./photos/z2.jpg" alt="Image 2"></a></span>
+      <span style="--i: 3;"><a href="./photos/z3.jpg"><img src="./photos/z3.jpg" alt="Image 3"></a></span>
+      <span style="--i: 4;"><a href="./photos/z4.jpg"><img src="./photos/z4.jpg" alt="Image 4"></a></span>
+      <span style="--i: 5;"><a href="./photos/z5.webp"><img src="./photos/z5.webp" alt="Image 5"></a></span>
+      <span style="--i: 6;"><a href="./photos/z6.jpg"><img src="./photos/z6.jpg" alt="Image 6"></a></span>
+      <span style="--i: 7;"><a href="./photos/z7.jpg"><img src="./photos/z7.jpg" alt="Image 7"></a></span>
+      <span style="--i: 8;"><a href="./photos/z8.jpg"><img src="./photos/z8.jpg" alt="Image 8"></a></span>
+    </section>
+
+    <section class="seach-engine">
+      <h1>Image Search Engine</h1>
+      <form id="search-form">
+        <input type="text" id="search-box" placeholder="Search anything here" />
+        <button type="submit" class="searc">Search</button>
+      </form>
+      <div id="search-result"></div>
+      <button id="show-more-btn">Show more</button>
+    </section>
+  </main>
+
+  <footer>
+    <section class="about" id="about">
+      <h3>About</h3>
+      <p>
+        Welcome to our amazing webpage! 🎉 Looking for a specific image? You've come to the right place! Our powerful
+        search feature helps you find what you're looking for — landscapes, cute puppies, stunning art — and more!
+        Type your query, and let the inspiration begin! 🌟
+      </p>
+    </section>
+<hr>
+    <section class="contact" id="contact">
+      <h3 class="hello">Contacts</h3>
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/amit-raikwar-9789b7301" target="_blank">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="mailto:yourmail@example.com" target="_blank">
+          <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/mr_.amit_kashyap" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61559569580593" target="_blank">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
