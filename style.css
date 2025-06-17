@@ -254,7 +254,7 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
   .seach-engine h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #search-box {
@@ -340,7 +340,8 @@ footer p {
       
     }
     .logo h2{
-      padding: 20px 20px 20px 3.5rem;
+      font-size: 1.3rem;
+      padding: 24px 20px 20px 3.5rem;
 
 
       
